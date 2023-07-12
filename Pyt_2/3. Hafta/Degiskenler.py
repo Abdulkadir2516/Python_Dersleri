@@ -1,12 +1,12 @@
 """
 Değişkenler = variable var
 Değiken tipleri ve dönüşümleri
-Uygulama (Alan Çevre Hacim VKİ hesabı)
+Uygulama (Alan Çevre Hacim litre VKİ hesabı)
 input()
 Uygulama
 """
 # Yorum satırı
-
+"""
 a = 15
 b = 48
 yorum = "python çok güzel bir dilmiş #lovepython"
@@ -62,7 +62,43 @@ print("float to bool =>", bool(my_float))
 print("bool to string =>", str(my_boolean))
 print("bool to int =>", int(my_boolean))
 print("bool to float =>", float(my_boolean))
+"""
 
+#Beden Kitle Endeksi Hesaplama
+# vki = kilo/boy * boy (m^2)
+
+kilo = 87
+boy = 1.91
+
+vki = kilo / boy**2
+
+print("""
+18, 5 kg/m² ‘nin altındaki sonuçlar: İdeal kilonun altında
+18, 5 kg/m² ile 24, 9 kg/m² arasındaki sonuçlar: İdeal kiloda
+25 kg/m² ile 29, 9 kg/m² arasındaki sonuçlar: İdeal kilonun üstünde
+30 kg/m² ile 39, 9 kg/m² arasındaki sonuçlar: İdeal kilonun çok üstünde (obez)
+40 kg/m² üzerindeki sonuçlar: İdeal kilonun çok üstünde (morbid obez)
+""")
+
+print("Beden Kitle Endeksiniz => ", vki)
+
+print("########################################################")
+print("########################################################")
+
+kilo = input("Kilonuzu Giriniz:")
+boy = float(input("Boyunuzu Giriniz: (örn: 1.72)"))
+
+vki = int(kilo) / boy**2
+
+print("""
+18, 5 kg/m² ‘nin altındaki sonuçlar: İdeal kilonun altında
+18, 5 kg/m² ile 24, 9 kg/m² arasındaki sonuçlar: İdeal kiloda
+25 kg/m² ile 29, 9 kg/m² arasındaki sonuçlar: İdeal kilonun üstünde
+30 kg/m² ile 39, 9 kg/m² arasındaki sonuçlar: İdeal kilonun çok üstünde (obez)
+40 kg/m² üzerindeki sonuçlar: İdeal kilonun çok üstünde (morbid obez)
+""")
+
+print("Beden Kitle Endeksiniz => ", vki)
 
 
 
