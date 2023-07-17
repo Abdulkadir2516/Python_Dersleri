@@ -76,16 +76,46 @@ Operator	Example	Same As
 
 print("3 İlişkisel Karşılaştırma Operatörler")
 
+print("""
+Operator	Name	                                        Example
+==	Equal	                                        x == y	
+!=	Not equal	                                        x != y	
+>	Greater than	                    x > y	
+<	Less than	                                        x < y	
+>=	Greater than or equal to	x >= y	
+<=	Less than or equal to	                    x <= y
+""")
 
 
+print("4 Mantıksal Operatörler") #(and or not)
 
+vize = 40#%40
+final = 50#%60
 
+ortalama = (final*0.6) + (vize*0.4)
 
+print(("Geçme Şartı Final 50 den yüksek ve ortalama 45 ten yüksek olmak zorunda"))
+print("Ortalama",ortalama)
+print("Vize",vize)
+print("Final",final)
 
+sorgu = final>=50 and ortalama >=45
 
+print("Geçme Durumu =", sorgu)
 
+print("50ye eşit veya küçük veya 70tenbüyük bir tam sayı giriniz")
 
+sayi = int(input("Sayınız: "))
 
+print("Doğru Sayı Girme Durumu =>", sayi <= 50 or sayi > 70)
 
+print("Doğru Sayı Girme Durumu =>", sayi == 50 or sayi < 50 or sayi > 70)
+
+print(not(True))
+print(not(False))
+
+a = "hello World"
+
+print("Wor" in a)
 
 
