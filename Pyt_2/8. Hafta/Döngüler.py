@@ -53,9 +53,71 @@ fruits += ["Kayısı"]
 
 fruits[2] ="Erik"
 
-print(fruits)
+##print(fruits)
+
+##fruits.append("Çilek")
+##print(fruits)
+##
+##fruits.insert(3,"Üzüm")
+##print(fruits)
+##
+##fruits.pop()
+##print(fruits)
+##
+##fruits.pop(5)
+##print(fruits)
+##
+##fruits.remove("Üzüm")
+##print(fruits)
+##
+##fruits.sort(reverse=False)
+##print(fruits)
+##
+##fruits.sort(reverse=True)
+##print(fruits)
+##
+##random = [15,6,4,848,29,15,155,24,152,15,25,54,57,48,39,58,184,65,245,5,778,545,75,758,75,45,744,]
+##print(random)
+##
+##random.sort(reverse=False)
+##print(random)
+##
+##random.sort(reverse=True)
+##print(random)
+##
+##print(random.count(15))
+##print(random.count(75))
+##
+##random = [15,6,4,848,29,15,155,24,152,15,25,54,57,48,39,58,184,65,245,5,778,545,75,758,75,45,744,]
+##
+##random.reverse()
+##print(random)
+##
+##random = [15,6,4,848,29,15,155,24,152,15,25,54,57,48,39,58,184,65,245,5,778,545,75,758,75,45,744,]
+##
+##random = random[::-1]
+##print(random)
+
+random = [15,6,4,-75,758,75,45,744,]
+
+a = random
+b = random.copy()
+
+print(a)
+print(b)
+print(random)
+
+a.append(6)
+b.append(48)
 
 
+print(fruits.index("Kavun"))
 
+x = [1,2,3]
+y = [4,5,6]
+x.extend(y)
+print(x)
+x += y
+print(x)
 
 
